@@ -2,7 +2,7 @@
 
 namespace Database\Seeders\Geo;
 
-use App\Models\Geo\Division;
+use App\Models\Webservices\Geo\Division;
 use Illuminate\Database\Eloquent\Model;
 use InPunktoNET\Geonames\Seeders\DivisionSeeder as Seeder;
 
