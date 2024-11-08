@@ -1,11 +1,11 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 use Illuminate\Support\Carbon;
-use Nevadskiy\Geonames\Definitions\FeatureCode;
-use Nevadskiy\Geonames\GeonamesSource;
-use Nevadskiy\Geonames\Support\ContinentCodeGenerator;
+use InPunktoNET\Geonames\Definitions\FeatureCode;
+use InPunktoNET\Geonames\GeonamesSource;
+use InPunktoNET\Geonames\Support\ContinentCodeGenerator;
 use function in_array;
 
 class ContinentSeeder extends ModelSeeder

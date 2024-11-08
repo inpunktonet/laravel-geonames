@@ -1,30 +1,30 @@
 <?php
 
-namespace Nevadskiy\Geonames\Tests\Feature;
+namespace InPunktoNET\Geonames\Tests\Feature;
 
 use Carbon\Carbon;
-use Nevadskiy\Geonames\GeonamesDownloader;
-use Nevadskiy\Geonames\Seeders\CitySeeder;
-use Nevadskiy\Geonames\Seeders\CityTranslationSeeder;
-use Nevadskiy\Geonames\Seeders\ContinentSeeder;
-use Nevadskiy\Geonames\Seeders\ContinentTranslationSeeder;
-use Nevadskiy\Geonames\Seeders\CountrySeeder;
-use Nevadskiy\Geonames\Seeders\CountryTranslationSeeder;
-use Nevadskiy\Geonames\Seeders\DivisionSeeder;
-use Nevadskiy\Geonames\Seeders\DivisionTranslationSeeder;
-use Nevadskiy\Geonames\Tests\Factories\CityFactory;
-use Nevadskiy\Geonames\Tests\Factories\CityTranslationFactory;
-use Nevadskiy\Geonames\Tests\Factories\ContinentFactory;
-use Nevadskiy\Geonames\Tests\Factories\ContinentTranslationFactory;
-use Nevadskiy\Geonames\Tests\Factories\CountryFactory;
-use Nevadskiy\Geonames\Tests\Factories\CountryTranslationFactory;
-use Nevadskiy\Geonames\Tests\Factories\DivisionFactory;
-use Nevadskiy\Geonames\Tests\Factories\DivisionTranslationFactory;
-use Nevadskiy\Geonames\Tests\Models\City;
-use Nevadskiy\Geonames\Tests\Models\Continent;
-use Nevadskiy\Geonames\Tests\Models\Country;
-use Nevadskiy\Geonames\Tests\Models\Division;
-use Nevadskiy\Geonames\Tests\TestCase;
+use InPunktoNET\Geonames\GeonamesDownloader;
+use InPunktoNET\Geonames\Seeders\CitySeeder;
+use InPunktoNET\Geonames\Seeders\CityTranslationSeeder;
+use InPunktoNET\Geonames\Seeders\ContinentSeeder;
+use InPunktoNET\Geonames\Seeders\ContinentTranslationSeeder;
+use InPunktoNET\Geonames\Seeders\CountrySeeder;
+use InPunktoNET\Geonames\Seeders\CountryTranslationSeeder;
+use InPunktoNET\Geonames\Seeders\DivisionSeeder;
+use InPunktoNET\Geonames\Seeders\DivisionTranslationSeeder;
+use InPunktoNET\Geonames\Tests\Factories\CityFactory;
+use InPunktoNET\Geonames\Tests\Factories\CityTranslationFactory;
+use InPunktoNET\Geonames\Tests\Factories\ContinentFactory;
+use InPunktoNET\Geonames\Tests\Factories\ContinentTranslationFactory;
+use InPunktoNET\Geonames\Tests\Factories\CountryFactory;
+use InPunktoNET\Geonames\Tests\Factories\CountryTranslationFactory;
+use InPunktoNET\Geonames\Tests\Factories\DivisionFactory;
+use InPunktoNET\Geonames\Tests\Factories\DivisionTranslationFactory;
+use InPunktoNET\Geonames\Tests\Models\City;
+use InPunktoNET\Geonames\Tests\Models\Continent;
+use InPunktoNET\Geonames\Tests\Models\Country;
+use InPunktoNET\Geonames\Tests\Models\Division;
+use InPunktoNET\Geonames\Tests\TestCase;
 
 class GeonamesSyncTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Downloader;
+namespace InPunktoNET\Geonames\Downloader;
 
 use Illuminate\Console\OutputStyle;
 use Nevadskiy\Downloader\CurlDownloader;

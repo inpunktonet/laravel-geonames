@@ -1,11 +1,11 @@
 <?php
 
-namespace Nevadskiy\Geonames\Tests\Factories;
+namespace InPunktoNET\Geonames\Tests\Factories;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
-use Nevadskiy\Geonames\Translations\Translation;
+use InPunktoNET\Geonames\Translations\Translation;
 
 /**
  * @method Collection|Translation|Translation[] create(array $attributes = [])

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames;
+namespace InPunktoNET\Geonames;
 
 use Carbon\Carbon;
 use InvalidArgumentException;

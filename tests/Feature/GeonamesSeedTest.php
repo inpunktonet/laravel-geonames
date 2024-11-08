@@ -1,21 +1,21 @@
 <?php
 
-namespace Nevadskiy\Geonames\Tests\Feature;
+namespace InPunktoNET\Geonames\Tests\Feature;
 
-use Nevadskiy\Geonames\GeonamesDownloader;
-use Nevadskiy\Geonames\Seeders\CitySeeder;
-use Nevadskiy\Geonames\Seeders\CityTranslationSeeder;
-use Nevadskiy\Geonames\Seeders\ContinentSeeder;
-use Nevadskiy\Geonames\Seeders\ContinentTranslationSeeder;
-use Nevadskiy\Geonames\Seeders\CountrySeeder;
-use Nevadskiy\Geonames\Seeders\CountryTranslationSeeder;
-use Nevadskiy\Geonames\Seeders\DivisionSeeder;
-use Nevadskiy\Geonames\Seeders\DivisionTranslationSeeder;
-use Nevadskiy\Geonames\Tests\Models\City;
-use Nevadskiy\Geonames\Tests\Models\Continent;
-use Nevadskiy\Geonames\Tests\Models\Country;
-use Nevadskiy\Geonames\Tests\Models\Division;
-use Nevadskiy\Geonames\Tests\TestCase;
+use InPunktoNET\Geonames\GeonamesDownloader;
+use InPunktoNET\Geonames\Seeders\CitySeeder;
+use InPunktoNET\Geonames\Seeders\CityTranslationSeeder;
+use InPunktoNET\Geonames\Seeders\ContinentSeeder;
+use InPunktoNET\Geonames\Seeders\ContinentTranslationSeeder;
+use InPunktoNET\Geonames\Seeders\CountrySeeder;
+use InPunktoNET\Geonames\Seeders\CountryTranslationSeeder;
+use InPunktoNET\Geonames\Seeders\DivisionSeeder;
+use InPunktoNET\Geonames\Seeders\DivisionTranslationSeeder;
+use InPunktoNET\Geonames\Tests\Models\City;
+use InPunktoNET\Geonames\Tests\Models\Continent;
+use InPunktoNET\Geonames\Tests\Models\Country;
+use InPunktoNET\Geonames\Tests\Models\Division;
+use InPunktoNET\Geonames\Tests\TestCase;
 
 class GeonamesSeedTest extends TestCase
 {

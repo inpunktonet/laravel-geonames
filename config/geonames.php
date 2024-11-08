@@ -14,14 +14,14 @@ return [
 
     'seeders' => [
 
-        Nevadskiy\Geonames\Seeders\ContinentSeeder::class,
-        Nevadskiy\Geonames\Seeders\ContinentTranslationSeeder::class,
-        Nevadskiy\Geonames\Seeders\CountrySeeder::class,
-        Nevadskiy\Geonames\Seeders\CountryTranslationSeeder::class,
-        Nevadskiy\Geonames\Seeders\DivisionSeeder::class,
-        Nevadskiy\Geonames\Seeders\DivisionTranslationSeeder::class,
-        Nevadskiy\Geonames\Seeders\CitySeeder::class,
-        Nevadskiy\Geonames\Seeders\CityTranslationSeeder::class,
+        InPunktoNET\Geonames\Seeders\ContinentSeeder::class,
+        InPunktoNET\Geonames\Seeders\ContinentTranslationSeeder::class,
+        InPunktoNET\Geonames\Seeders\CountrySeeder::class,
+        InPunktoNET\Geonames\Seeders\CountryTranslationSeeder::class,
+        InPunktoNET\Geonames\Seeders\DivisionSeeder::class,
+        InPunktoNET\Geonames\Seeders\DivisionTranslationSeeder::class,
+        InPunktoNET\Geonames\Seeders\CitySeeder::class,
+        InPunktoNET\Geonames\Seeders\CityTranslationSeeder::class,
 
     ],
 

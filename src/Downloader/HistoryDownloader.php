@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Downloader;
+namespace InPunktoNET\Geonames\Downloader;
 
 use Nevadskiy\Downloader\Downloader;
 

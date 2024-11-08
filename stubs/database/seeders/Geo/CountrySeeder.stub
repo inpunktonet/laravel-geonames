@@ -4,7 +4,7 @@ namespace Database\Seeders\Geo;
 
 use App\Models\Geo\Country;
 use Illuminate\Database\Eloquent\Model;
-use Nevadskiy\Geonames\Seeders\CountrySeeder as Seeder;
+use InPunktoNET\Geonames\Seeders\CountrySeeder as Seeder;
 
 class CountrySeeder extends Seeder
 {

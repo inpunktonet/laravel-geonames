@@ -1,11 +1,11 @@
 <?php
 
-namespace Nevadskiy\Geonames\Tests\Models;
+namespace InPunktoNET\Geonames\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
-use Nevadskiy\Geonames\Translations\HasTranslations;
+use InPunktoNET\Geonames\Translations\HasTranslations;
 
 /**
  * @property int id

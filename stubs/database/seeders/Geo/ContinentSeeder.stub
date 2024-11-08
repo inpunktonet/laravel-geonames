@@ -3,7 +3,7 @@
 namespace Database\Seeders\Geo;
 
 use App\Models\Geo\Continent;
-use Nevadskiy\Geonames\Seeders\ContinentSeeder as Seeder;
+use InPunktoNET\Geonames\Seeders\ContinentSeeder as Seeder;
 
 class ContinentSeeder extends Seeder
 {

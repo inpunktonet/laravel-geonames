@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 class ContinentTranslationSeeder extends TranslationSeeder
 {

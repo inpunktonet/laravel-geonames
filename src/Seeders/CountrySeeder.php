@@ -1,10 +1,10 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
-use Nevadskiy\Geonames\Definitions\FeatureCode;
+use InPunktoNET\Geonames\Definitions\FeatureCode;
 use function in_array;
 
 class CountrySeeder extends ModelSeeder

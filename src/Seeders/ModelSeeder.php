@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

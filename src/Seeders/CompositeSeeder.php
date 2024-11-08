@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\LazyCollection;
-use Nevadskiy\Geonames\GeonamesSource;
+use InPunktoNET\Geonames\GeonamesSource;
 use RuntimeException;
 use function in_array;
 use function count;

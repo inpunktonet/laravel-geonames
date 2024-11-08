@@ -1,5 +1,5 @@
 {
-    "name": "nevadskiy/laravel-geonames",
+    "name": "inpunktonet/laravel-geonames",
     "description": "Populate your database using the GeoNames service.",
     "license": "MIT",
     "keywords": [
@@ -12,11 +12,11 @@
         "laravel",
         "database"
     ],
-    "homepage": "https://github.com/nevadskiy/laravel-geonames",
+    "homepage": "https://github.com/inpunktonet/laravel-geonames",
     "authors": [
         {
-            "name": "Nevadskiy",
-            "email": "nevadskiy@gmail.com"
+            "name": "Jan Späth",
+            "email": "jsp@inpunktonet.de"
         }
     ],
     "require": {
@@ -34,18 +34,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Nevadskiy\\Geonames\\": "src/"
+            "InPunktoNET\\Geonames\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nevadskiy\\Geonames\\Tests\\": "tests/"
+            "InPunktoNET\\Geonames\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Nevadskiy\\Geonames\\GeonamesServiceProvider"
+                "InPunktoNET\\Geonames\\GeonamesServiceProvider"
             ]
         }
     },

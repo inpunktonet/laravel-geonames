@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames;
+namespace InPunktoNET\Geonames;
 
 use Illuminate\Console\Events\CommandStarting;
 use Illuminate\Console\OutputStyle;
@@ -11,13 +11,13 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Nevadskiy\Downloader\CurlDownloader;
 use Nevadskiy\Downloader\Downloader;
-use Nevadskiy\Geonames\Downloader\ConsoleProgressDownloader;
-use Nevadskiy\Geonames\Downloader\HistoryDownloader;
-use Nevadskiy\Geonames\Reader\ConsoleProgressReader;
-use Nevadskiy\Geonames\Reader\FileReader;
-use Nevadskiy\Geonames\Reader\Reader;
-use Nevadskiy\Geonames\Seeders\CompositeSeeder;
-use Nevadskiy\Geonames\Support\CompositeLogger;
+use InPunktoNET\Geonames\Downloader\ConsoleProgressDownloader;
+use InPunktoNET\Geonames\Downloader\HistoryDownloader;
+use InPunktoNET\Geonames\Reader\ConsoleProgressReader;
+use InPunktoNET\Geonames\Reader\FileReader;
+use InPunktoNET\Geonames\Reader\Reader;
+use InPunktoNET\Geonames\Seeders\CompositeSeeder;
+use InPunktoNET\Geonames\Support\CompositeLogger;
 use Psr\Log\LogLevel;
 use Symfony\Component\Console\Logger\ConsoleLogger;
 use Symfony\Component\Console\Output\OutputInterface;

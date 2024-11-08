@@ -1,13 +1,13 @@
 <?php
 
-namespace Nevadskiy\Geonames;
+namespace InPunktoNET\Geonames;
 
-use Nevadskiy\Geonames\Reader\AlternateNamesDeletesReader;
-use Nevadskiy\Geonames\Reader\AlternateNamesReader;
-use Nevadskiy\Geonames\Reader\CountryInfoReader;
-use Nevadskiy\Geonames\Reader\DeletesReader;
-use Nevadskiy\Geonames\Reader\GeonamesReader;
-use Nevadskiy\Geonames\Reader\Reader;
+use InPunktoNET\Geonames\Reader\AlternateNamesDeletesReader;
+use InPunktoNET\Geonames\Reader\AlternateNamesReader;
+use InPunktoNET\Geonames\Reader\CountryInfoReader;
+use InPunktoNET\Geonames\Reader\DeletesReader;
+use InPunktoNET\Geonames\Reader\GeonamesReader;
+use InPunktoNET\Geonames\Reader\Reader;
 use function count;
 
 class GeonamesSource

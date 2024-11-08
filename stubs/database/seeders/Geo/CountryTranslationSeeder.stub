@@ -2,7 +2,7 @@
 
 namespace Database\Seeders\Geo;
 
-use Nevadskiy\Geonames\Seeders\TranslationSeeder as Seeder;
+use InPunktoNET\Geonames\Seeders\TranslationSeeder as Seeder;
 
 class CountryTranslationSeeder extends Seeder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Reader;
+namespace InPunktoNET\Geonames\Reader;
 
 use League\Csv\Reader as CsvReader;
 

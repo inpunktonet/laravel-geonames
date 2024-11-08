@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Support;
+namespace InPunktoNET\Geonames\Support;
 
 class ContinentCodeGenerator
 {

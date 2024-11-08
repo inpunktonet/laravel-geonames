@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Reader;
+namespace InPunktoNET\Geonames\Reader;
 
 class GeonamesReader implements Reader
 {

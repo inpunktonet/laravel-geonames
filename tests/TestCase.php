@@ -1,10 +1,10 @@
 <?php
 
-namespace Nevadskiy\Geonames\Tests;
+namespace InPunktoNET\Geonames\Tests;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Foundation\Application;
-use Nevadskiy\Geonames\GeonamesServiceProvider;
+use InPunktoNET\Geonames\GeonamesServiceProvider;
 use Nevadskiy\Translatable\TranslatableServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 

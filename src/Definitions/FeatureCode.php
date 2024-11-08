@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Definitions;
+namespace InPunktoNET\Geonames\Definitions;
 
 /**
  * @see: http://www.geonames.org/export/codes.html

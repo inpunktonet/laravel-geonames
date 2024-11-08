@@ -145,7 +145,7 @@ For example, if you want to use UUIDs as primary keys, you can extend the origin
 namespace Database\Seeders\Geo;
 
 use App\Models\Geo\City;
-use Illuminate\Support\Str;use Nevadskiy\Geonames\Seeders\CitySeeder as Seeder;
+use Illuminate\Support\Str;use InPunktoNET\Geonames\Seeders\CitySeeder as Seeder;
 
 class CitySeeder extends Seeder
 {
@@ -172,7 +172,7 @@ class CitySeeder extends Seeder
 
 For a more significant change in the structure, you can add your own seeders or extend existing ones.
 
-Each seeder must implement the `Nevadskiy\Geonames\Seeders\Seeder` interface.
+Each seeder must implement the `InPunktoNET\Geonames\Seeders\Seeder` interface.
 
 All seeders that are specified in the `geonames` config file will be executed one by one in the specified order.
 

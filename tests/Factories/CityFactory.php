@@ -1,11 +1,11 @@
 <?php
 
-namespace Nevadskiy\Geonames\Tests\Factories;
+namespace InPunktoNET\Geonames\Tests\Factories;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Nevadskiy\Geonames\Definitions\FeatureCode;
-use Nevadskiy\Geonames\Tests\Models\City;
+use InPunktoNET\Geonames\Definitions\FeatureCode;
+use InPunktoNET\Geonames\Tests\Models\City;
 
 /**
  * @method City|City[]|Collection create(array $attributes = [])

@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Support;
+namespace InPunktoNET\Geonames\Support;
 
 use Psr\Log\AbstractLogger;
 use Psr\Log\LoggerInterface;

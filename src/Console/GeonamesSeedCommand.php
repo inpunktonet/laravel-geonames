@@ -1,10 +1,10 @@
 <?php
 
-namespace Nevadskiy\Geonames\Console;
+namespace InPunktoNET\Geonames\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Nevadskiy\Geonames\Seeders\CompositeSeeder;
+use InPunktoNET\Geonames\Seeders\CompositeSeeder;
 
 class GeonamesSeedCommand extends Command
 {

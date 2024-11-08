@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Translations;
+namespace InPunktoNET\Geonames\Translations;
 
 use Illuminate\Database\Eloquent\Model;
 use Nevadskiy\Translatable\Strategies\ExtraTableExtended\HasTranslations as BaseHasTranslations;

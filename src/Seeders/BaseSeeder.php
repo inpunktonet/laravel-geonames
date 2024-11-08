@@ -1,10 +1,10 @@
 <?php
 
-namespace Nevadskiy\Geonames\Seeders;
+namespace InPunktoNET\Geonames\Seeders;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\LazyCollection;
-use Nevadskiy\Geonames\GeonamesSource;
+use InPunktoNET\Geonames\GeonamesSource;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
 use Psr\Log\NullLogger;

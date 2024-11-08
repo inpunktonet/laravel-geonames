@@ -1,6 +1,6 @@
 <?php
 
-namespace Nevadskiy\Geonames\Reader;
+namespace InPunktoNET\Geonames\Reader;
 
 use Illuminate\Console\OutputStyle;
 use Symfony\Component\Console\Helper\Helper;
