@@ -41,6 +41,8 @@ class Country extends Model
 {
     use HasTranslations;
 
+    protected $table = 'webserivces_geo_countries';
+
     /**
      * Attributes that are translatable.
      *

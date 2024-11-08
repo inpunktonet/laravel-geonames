@@ -25,6 +25,8 @@ class Continent extends Model
 {
     use HasTranslations;
 
+    protected $table = 'webserivces_geo_continents';
+
     /**
      * Attributes that are translatable.
      *

@@ -27,6 +27,8 @@ class City extends Model
 {
     use HasTranslations;
 
+    protected $table = 'webserivces_geo_cities';
+
     /**
      * Attributes that are translatable.
      *

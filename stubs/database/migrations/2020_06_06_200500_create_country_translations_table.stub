@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('country_translations', function (Blueprint $table) {
+        Schema::create('webserivces_geo_country_translations', function (Blueprint $table) {
             $table->id();
             $table->foreignId('country_id')->references('id')->on('countries')->cascadeOnDelete();
             $table->string('name');
@@ -33,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('country_translations');
+        Schema::dropIfExists('webserivces_geo_country_translations');
     }
 };

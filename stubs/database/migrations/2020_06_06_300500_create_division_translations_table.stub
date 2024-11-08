@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('division_translations', function (Blueprint $table) {
+        Schema::create('webserivces_geo_division_translations', function (Blueprint $table) {
             $table->id();
             $table->foreignId('division_id')->references('id')->on('divisions')->cascadeOnDelete();
             $table->string('name');
@@ -33,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('division_translations');
+        Schema::dropIfExists('webserivces_geo_division_translations');
     }
 };

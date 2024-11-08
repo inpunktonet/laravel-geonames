@@ -28,6 +28,8 @@ class Division extends Model
 {
     use HasTranslations;
 
+    protected $table = 'webserivces_geo_divisions';
+
     /**
      * Attributes that are translatable.
      *
