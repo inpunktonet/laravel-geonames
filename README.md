@@ -1,11 +1,8 @@
-# 🌎 Populate your database using the [GeoNames](https://www.geonames.org/) service
-
+# Laravel Geonames
 [![PHPUnit](https://img.shields.io/github/actions/workflow/status/nevadskiy/laravel-geonames/phpunit.yml?branch=master)](https://packagist.org/packages/nevadskiy/laravel-geonames)
 [![Code Coverage](https://img.shields.io/codecov/c/github/nevadskiy/laravel-geonames?token=9X6AQQYCPA)](https://packagist.org/packages/nevadskiy/laravel-geonames)
 [![Latest Stable Version](https://img.shields.io/packagist/v/nevadskiy/laravel-geonames)](https://packagist.org/packages/nevadskiy/laravel-geonames)
 [![License](https://img.shields.io/github/license/nevadskiy/laravel-geonames)](https://packagist.org/packages/nevadskiy/laravel-geonames)
-
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
 
 ## 🗒️ Description
 
@@ -20,7 +17,7 @@ The package also keeps the data **up-to-date** by fetching daily modifications p
 ## 🔌 Installation
 
 ```bash
-composer require nevadskiy/laravel-geonames
+composer require inpunktonet/laravel-geonames
 ```
 
 If you are going to use translations, you also need to install an additional package.
@@ -29,12 +26,7 @@ If you are going to use translations, you also need to install an additional pac
 composer require nevadskiy/laravel-translatable
 ```
 
-## ✅ Requirements
-
-- Laravel `8.0` or newer
-- PHP `7.3` or newer
-
-## 🔨 Usage
+## Usage
 
 Publish the package resources using the command:
 
