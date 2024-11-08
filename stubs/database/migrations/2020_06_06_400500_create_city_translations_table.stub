@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('webserivces_geo_city_translations', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('city_id')->references('id')->on('cities')->cascadeOnDelete();
+            $table->foreignId('city_id')->references('id')->on('webserivces_geo_cities')->cascadeOnDelete();
             $table->string('name');
             $table->boolean('is_preferred')->default(true);
             $table->boolean('is_short')->default(false);

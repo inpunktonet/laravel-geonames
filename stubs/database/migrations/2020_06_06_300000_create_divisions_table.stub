@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('webserivces_geo_divisions', static function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->foreignId('country_id')->index()->references('id')->on('countries')->cascadeOnDelete();
+            $table->foreignId('country_id')->index()->references('id')->on('webserivces_geo_countries')->cascadeOnDelete();
             $table->decimal('latitude', 10, 7);
             $table->decimal('longitude', 10, 7);
             $table->string('timezone_id', 32)->nullable()->index();

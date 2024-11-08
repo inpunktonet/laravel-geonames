@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('webserivces_geo_division_translations', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('division_id')->references('id')->on('divisions')->cascadeOnDelete();
+            $table->foreignId('division_id')->references('id')->on('webserivces_geo_divisions')->cascadeOnDelete();
             $table->string('name');
             $table->boolean('is_preferred')->default(true);
             $table->boolean('is_short')->default(false);
