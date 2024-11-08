@@ -14,7 +14,7 @@ class CountrySeeder extends ModelSeeder
      *
      * @var string
      */
-    protected static $model = 'App\\Models\\Geo\\Country';
+    protected static $model = 'App\\Models\\Webservices\\Geo\\Country';
 
     /**
      * The allowed feature codes.

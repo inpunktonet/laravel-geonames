@@ -15,7 +15,7 @@ class ContinentSeeder extends ModelSeeder
      *
      * @var string
      */
-    protected static $model = 'App\\Models\\Geo\\Continent';
+    protected static $model = 'App\\Models\\Webservices\\Geo\\Continent';
 
     /**
      * The continent code generator instance.

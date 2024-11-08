@@ -200,7 +200,7 @@ class GeonamesServiceProvider extends ServiceProvider
      */
     protected function publishModels(): void
     {
-        $this->publishes($this->stubPaths('app/Models/Geo'), 'geonames-models');
+        $this->publishes($this->stubPaths('app/Models/Webservices/Geo'), 'geonames-models');
     }
 
     /**

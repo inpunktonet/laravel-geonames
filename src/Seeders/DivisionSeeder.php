@@ -14,7 +14,7 @@ class DivisionSeeder extends ModelSeeder
      *
      * @var string
      */
-    protected static $model = 'App\\Models\\Geo\\Division';
+    protected static $model = 'App\\Models\\Webservices\\Geo\\Division';
 
     /**
      * The allowed feature codes.

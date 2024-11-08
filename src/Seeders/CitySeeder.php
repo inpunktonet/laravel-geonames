@@ -14,7 +14,7 @@ class CitySeeder extends ModelSeeder
      *
      * @var string
      */
-    protected static $model = 'App\\Models\\Geo\\City';
+    protected static $model = 'App\\Models\\Webservices\\Geo\\City';
 
     /**
      * The minimum population filter.
