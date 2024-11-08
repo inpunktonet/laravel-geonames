@@ -11,10 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('webserivces_geo_divisions', static function (Blueprint $table) {
+        Schema::create('divisions', static function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->foreignId('country_id')->index()->references('id')->on('webserivces_geo_countries')->cascadeOnDelete();
+            $table->foreignId('country_id')->index()->references('id')->on('countries')->cascadeOnDelete();
             $table->decimal('latitude', 10, 7);
             $table->decimal('longitude', 10, 7);
             $table->string('timezone_id', 32)->nullable()->index();
@@ -35,6 +35,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('webserivces_geo_divisions');
+        Schema::dropIfExists('divisions');
     }
 };
